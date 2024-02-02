@@ -46,7 +46,11 @@
             id="6c27905c-1c25-4012-8d82-a96157d2b8ee" name="Root Operational Activity"/>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalCapabilityPkg"
-          id="acf4c66c-cb22-4465-a331-092aa49a1bd2" name="Operational Capabilities"/>
+          id="acf4c66c-cb22-4465-a331-092aa49a1bd2" name="Operational Capabilities">
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="56d93a94-3fe9-471f-b7b4-5c3bc43ce872" name="OperationalCapability 1"
+            summary="xxx"/>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="c5d01243-3da4-4a24-868c-8c10d2a09fb3" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"

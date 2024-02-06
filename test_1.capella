@@ -50,6 +50,8 @@
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="56d93a94-3fe9-471f-b7b4-5c3bc43ce872" name="OperationalCapability 1"
             summary="xxx"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="03564512-702e-411a-93f4-2f1bbef7e560" name="OperationalCapability 2"/>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="c5d01243-3da4-4a24-868c-8c10d2a09fb3" name="Interfaces"/>

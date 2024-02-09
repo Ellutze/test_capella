@@ -44,7 +44,8 @@
           id="72ef1f7d-de37-430c-8be8-7b99ff2539b8" name="Operational Activities"
           appliedPropertyValues="#e33a1f81-2286-4d2a-96dc-fcdc16f508e8 #2991f945-d7f5-40c2-9c8f-8cbf64f8d0ac">
         <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:BooleanPropertyValue"
-            id="e33a1f81-2286-4d2a-96dc-fcdc16f508e8" name="BooleanPropertyValue 1"/>
+            id="e33a1f81-2286-4d2a-96dc-fcdc16f508e8" name="BooleanPropertyValue 1"
+            value="true"/>
         <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
             id="2991f945-d7f5-40c2-9c8f-8cbf64f8d0ac" name="FloatPropertyValue 2"
             value="5.5"/>

@@ -42,6 +42,7 @@
         id="f92cdab5-b1e6-4c5b-9aef-9073425ebb5d" name="Operational Analysis">
       <ownedFunctionPkg xsi:type="org.polarsys.capella.core.data.oa:OperationalActivityPkg"
           id="72ef1f7d-de37-430c-8be8-7b99ff2539b8" name="Operational Activities"
+
           appliedPropertyValues="#e33a1f81-2286-4d2a-96dc-fcdc16f508e8 #2991f945-d7f5-40c2-9c8f-8cbf64f8d0ac">
         <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:BooleanPropertyValue"
             id="e33a1f81-2286-4d2a-96dc-fcdc16f508e8" name="BooleanPropertyValue 1"
@@ -49,6 +50,7 @@
         <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
             id="2991f945-d7f5-40c2-9c8f-8cbf64f8d0ac" name="FloatPropertyValue 2"
             value="5.5"/>
+
         <ownedOperationalActivities xsi:type="org.polarsys.capella.core.data.oa:OperationalActivity"
             id="6c27905c-1c25-4012-8d82-a96157d2b8ee" name="Root Operational Activity"/>
       </ownedFunctionPkg>

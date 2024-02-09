@@ -52,13 +52,21 @@
             summary="xxx"/>
         <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
             id="03564512-702e-411a-93f4-2f1bbef7e560" name="OperationalCapability 2"/>
+        <ownedOperationalCapabilities xsi:type="org.polarsys.capella.core.data.oa:OperationalCapability"
+            id="27f323d4-792a-4eca-8437-11a2325c5bff" name="STEVE-TEST"/>
       </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="c5d01243-3da4-4a24-868c-8c10d2a09fb3" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
-          id="9591de84-32a6-498e-868e-604462b4574f" name="Data"/>
+          id="9591de84-32a6-498e-868e-604462b4574f" name="Data">
+        <ownedDataPkgs xsi:type="org.polarsys.capella.core.data.information:DataPkg"
+            id="57a94879-c801-494d-a8e1-8fe00094e365" name="STEVE-TEST"/>
+      </ownedDataPkg>
       <ownedRolePkg xsi:type="org.polarsys.capella.core.data.oa:RolePkg" id="ed3ccf91-6525-48d9-96c5-54aeba3dc2a6"
-          name="Roles"/>
+          name="Roles">
+        <ownedRoles xsi:type="org.polarsys.capella.core.data.oa:Role" id="24a02ea3-f41f-4f40-97cf-4580e191d461"
+            name="STEVE-TEST"/>
+      </ownedRolePkg>
       <ownedEntityPkg xsi:type="org.polarsys.capella.core.data.oa:EntityPkg" id="19745b18-e8e1-4d19-9b8a-3264459ab87b"
           name="Operational Entities"/>
     </ownedArchitectures>
